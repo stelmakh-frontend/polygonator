@@ -1,0 +1,34 @@
+{% include head-home.html %}
+
+<section class="container">
+    <section class="services-top">
+        <div class="services-top-title">
+            <h1 class="title">SERVICES</h1>
+        </div>
+        <div class="services-menu">
+            <ul class="services-menu__list">
+                <li class="services-menu__item">
+                    <a href="services.html" class="services-menu__link services-menu__link_active">All</a>
+                </li>
+                <li class="services-menu__item">
+                    <a href="services.html" class="services-menu__link">Interactive Tour</a>
+                </li>
+                <li class="services-menu__item">
+                    <a href="services.html" class="services-menu__link">3D Modelling</a>
+                </li>
+                <li class="services-menu__item">
+                    <a href="services.html" class="services-menu__link">Visualization</a>
+                </li>
+                <li class="services-menu__item">
+                    <a href="services.html" class="services-menu__link">Animation</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="services">
+        {{ content }}
+    </section>
+</section>
+
+{% include footer.html %}
